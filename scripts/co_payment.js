@@ -155,7 +155,7 @@ function luhn(idNum) {
   var string2 = ""
 
   // get odd numbered digits
-  for(var i = idNum.length - 1; i >=0; i-= 2) {
+  for(var i = idNum.length - 1; i >= 0; i-= 2) {
     string1 += idNum.charAt(i)
   }
 
